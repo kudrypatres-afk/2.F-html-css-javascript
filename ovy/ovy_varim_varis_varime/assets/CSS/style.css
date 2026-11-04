@@ -16,16 +16,52 @@
 body{
     font-family: "Outfit", sans-serif;
     background-color: var(--stone-100);
+    font-size: 20px;
+    line-height: 30px
 }
 
+/* ------------------------------TYPOGRAFIA-------------------------------- */
 
+h2{
+    color: var(--brown-00);
+      font-family: "Young Serif", sans-serif;
+    font-weight: 400px;
+}
 
+.tabulka-strong{
+     color: var(--brown-00);
+}
 
 h1{
     font-family: "Young Serif", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 35px;
+    color: var(--stone-900);
+}
+
+.priprava{
+    background-color: var(--rose-50);
+}
+
+.priprava_h2{
+    color: var(--rose-800);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 main{
     background-color: var(--biela);
-    margin: 300px;
+    margin: 0 auto;
+    width: 1000px;
+    border-radius: 25px;
+    padding:30px ;
+
+}
+
+img{
+    width: inherit; /*zdedi vlastnosti po svojom rodicovi*/
+    border-radius: inherit;
+    padding-bottom: 20px;
 }
