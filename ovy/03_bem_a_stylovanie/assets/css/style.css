@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #ECF0F1;
+}
+
+header,
+footer{
+  text-align: center;
+  color: #ffffff;
+  background: #32465A;
+}
+
+header{
+  padding: 35px 20px;
+  border-bottom: 5px solid #E74C3C;
+}
+
+h1{
+  color: #ffffff;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+
+.header__h2{
+  color: #3498DB;
+}
+
+.header__p{
+  color: #AFB9B1;
+  font-style: italic;
+}
+
+nav{
+  text-align: center;
+  background: #ffffff;
+}
+
+nav ul{
+  margin: 0;
+  padding: 16px;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav a{
+  color: #2C3E50;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sirka_boxu{
+  max-width: 936px;
+  margin: 30px auto;
+  padding: 28px 32px;
+  background: #ffffff;
+}
+
+article h2{
+  color: #32465A;
+  border-bottom: 3px solid #E74C3C;
+}
+
+.uvod{
+  background-color: #E9ECEF;
+  border-left: 5px solid #3498DB;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td{
+  padding: 12px 16px;
+  border-bottom: 1px solid #E6E9EB;
+}
+
+th{
+  color: #ffffff;
+  background: #32465A;
+}
+
+footer{
+  padding: 30px;
+}
